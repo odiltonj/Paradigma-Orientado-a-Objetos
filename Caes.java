@@ -52,6 +52,8 @@ public class Caes{
   }
   
   //Passo 4 - Criar os métodos
-
+  public void falar(){
+    System.out.println("au au");
+  }
 
 }
