@@ -7,7 +7,6 @@ public class App {
 
         System.out.println("nome: "+f1.nome);
         System.out.println("salario: "+f1.salario);
-
         System.out.println(f2);
         
     }
