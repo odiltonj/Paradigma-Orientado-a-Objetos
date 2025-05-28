@@ -1,13 +1,15 @@
+// Passo a passo da criacao de uma classe em JAVA.
 // Criacao de classe Funcionario
 
+//public class NomeDaClasse
 public class Funcionario {
 
 // Passo 1 - Criar atributos da classe (Tipo  Nome do Atributo)
-  private String nome;
-  private Long salario;
+  public String nome;
+  public float salario;
 
 // Passo 2 - Instaciar a classe para objeto - utiliza o this.variavel = variavel;
-  public Funcionario(String nome, Long salario) {
+  public Funcionario(String nome, float salario) {
     this.nome = nome;
     this.salario = salario;
   }
@@ -21,11 +23,11 @@ public class Funcionario {
     this.nome = nome;
   }
 
-  public Long getSalario() {
+  public float getSalario() {
     return salario;
   }
 
-  public void setSalario(Long salario) {
+  public void setSalario(float salario) {
     this.salario = salario;
   }
 
@@ -34,8 +36,6 @@ public class Funcionario {
   public void trabalhar() {
     System.out.println("Estou trabalhando!");
   }
-
-
 
 }
 
